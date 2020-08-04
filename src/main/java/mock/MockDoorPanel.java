@@ -1,8 +1,9 @@
 package mock;
 
 public class MockDoorPanel extends DoorPanel {
+
     @Override
-    void close() {
+    public void close() {
         System.out.println("Everything is closed");
     }
 }
